@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exersice_7</title>
+    <style>
+        :fullscreen{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(113, 215, 231);
+        }
+
+    </style>
+
+    <script>
+        const elem = document.documentElement;
+        function fullscreen(){
+            if(elem.requestFullscreen){
+                elem.requestFullscreen();
+            }
+        }
+        
+    </script>
+</head>
+<body>
+
+    <button onclick="fullscreen()">Click the button below to enter element into fullscreen mode</button>
+    
+</body>
+</html>
