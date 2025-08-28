@@ -1,4 +1,29 @@
 img{
-    width: 80px;
-    
+    width: 400px; height: 400px;
+    border-radius: 50%;
+    float: right;
+    padding: -250px 50px 0px 50px;
+}
+    nav{
+        float: right;
+        padding: 0px 50px 0px 50px;
+    }
+nav a{
+    margin: 20px;
+    color: black;
+}
+input{
+    color: white; background-color: blueviolet;
+    border-radius: 20px;width: 100px; height: 50px;
+}
+section{
+    padding: 0px 50px 0px 50px;
+
+}
+footer{
+   padding: 20px 50px 0px 50px;
+}
+
+header{
+    padding: 0px 50px 0px 50px;
 }
